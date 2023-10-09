@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
-import "./style.css";
 import HomeRows from "../../components/HomeRows";
 import ToggleDiv from "../../components/ToggleDiv";
 import EmailDiv from "../../components/EmailDiv";

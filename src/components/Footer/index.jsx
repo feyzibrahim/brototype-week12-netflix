@@ -4,7 +4,7 @@ import "./style.css";
 
 function Footer() {
   return (
-    <div className="mx-10 lg:mx-40 py-5 lg:py-20 text-gray-400">
+    <div className="px-10 lg:px-40 py-5 lg:py-20 text-gray-400 bg-black opacity-80">
       <p className="pb-5">Questions? Call 000-800-919-1694</p>
       <div className="grid grid-cols-2 lg:grid-cols-4 space-y-2 mb-5">
         <a href="">FAQ</a>

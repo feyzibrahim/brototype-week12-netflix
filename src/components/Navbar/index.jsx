@@ -9,7 +9,7 @@ const Navbar = () => {
       <img src={netflixLogo} alt="adfas" className="w-1/5 lg:w-1/6" />
       <div>
         <LanguageButton />
-        <Button text="Sign In" />
+        <Button text="Sign In" linkTo="/login" />
       </div>
     </nav>
   );
