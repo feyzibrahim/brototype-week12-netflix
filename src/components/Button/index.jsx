@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Button = ({ text, linkTo }) => {
   return (
-    <a
+    <Link
       className="bg-red-600 text-white font-semibold px-3 py-1 rounded"
-      href={linkTo}
+      to={linkTo}
     >
       {text}
-    </a>
+    </Link>
   );
 };
 

@@ -2,6 +2,7 @@ import React from "react";
 import netflixLogo from "/netflix.svg";
 import Footer from "../../components/Footer";
 import InputHome from "../../components/InputHome";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -15,12 +16,12 @@ function Login() {
         <h1 className="font-bold text-3xl z-10">Sign In</h1>
         <InputHome id="email" placeholder="Email or Phone number" type="text" />
         <InputHome id="password" placeholder="Password" type="password" />
-        <a // It was button change it back
-          href="/user"
+        <Link
+          to="/user"
           className="bg-red-600 text-white font-semibold px-3 py-3 rounded z-10 text-center"
         >
           Sign In
-        </a>
+        </Link>
         <div className="flex justify-between text-sm z-10">
           <div>
             <input
