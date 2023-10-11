@@ -27,3 +27,7 @@
 .navbar-a {
   @apply text-gray-400 hover:text-gray-100;
 }
+
+.ssss {
+  width: 100px;
+}

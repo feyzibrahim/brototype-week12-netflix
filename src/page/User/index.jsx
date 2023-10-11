@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarAfterLogin from "../../components/NavbarAfterLogin";
 import { useData } from "../../context/DataContext";
-import MovieCard from "../../components/MovieCard";
+import MovieCard from "../../components/MovieRow";
 import Footer from "../../components/Footer";
 import { BsPlayFill, BsInfoCircle } from "react-icons/bs";
 const User = () => {
@@ -36,7 +36,7 @@ const User = () => {
         <div className="h-screen w-full bg-[url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/q3jHCb4dMfYF6ojikKuHd6LscxC.jpg')]"></div>
         <div className="bg-gradient-to-t from-zinc-900 to-transparent h-screen absolute top-0 left-0 right-0 bottom-0 z-10"></div>
       </div>
-      <div className="px-12 relative z-20 pb-20">
+      <div className="px-12 relative z-20 pb-20 overflow-hidden ">
         {data &&
           data.map((genre) => <MovieCard genre={genre} key={genre.id} />)}
       </div>
