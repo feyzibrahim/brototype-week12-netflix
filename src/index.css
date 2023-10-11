@@ -19,3 +19,11 @@
     black 100%
   ); /* Circular gradient */
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar-a {
+  @apply text-gray-400 hover:text-gray-100;
+}
